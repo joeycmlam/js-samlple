@@ -6,15 +6,29 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>JS Starter</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
 </head>
 
 <body>
-<h1 id="h1Msg">My first Javascript!</h1>
-<h2 id="h2Msg">Heading 2 ----</h2>
+  <div class="row">
+    <h1 id="h1Msg">My first Javascript!</h1>
+  </div>
+
+  <div class="btn-primary">
+    <button type="button">Update!</button>
+  </div>
+
+
+  <div class="row-cols-md-2">
+    <h2> Stock Coe: </h2><h2 id="hStockCode">[]</h2>
+    <h2> Price: </h2><h2 id="hPrice">Price: </h2>
+    <h3> Text: </h3><h3 id="comment"></h3>
+  </div>
+
 
 <script src="utils.js"></script>
 <script src="script.js"></script>
+<script src="home.js"></script>
 </body>
 
 </html>
